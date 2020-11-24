@@ -18,7 +18,9 @@ class Auth extends BaseController
                 return redirect()->back()->withInput()->with('validation', $this->validator);
             }
         }
-		return view('auth/login');
+        echo view('header_footer/login_header');
+        return view('auth/login');
+        echo view('header_footer/footer');
 	}
 
     public function register()
@@ -59,7 +61,8 @@ class Auth extends BaseController
                 return redirect('auth/register')->back()->withInput()->with('validation', $this->validator);
             }
         }
-
-		return view('auth/register');
+        echo view('header_footer/register_header');
+        return view('auth/register');
+        echo view('header_footer/footer');
     }
 }

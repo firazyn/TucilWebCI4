@@ -1,19 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/home.css">
-    <title>Dukung Firaz #MajuDPM</title>
-  </head>
-  <body>
   <section>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Firaz #MajuDPM</a>
+  <a class="navbar-brand" href="https://www.youtube.com/watch?v=YddwkMJG1Jo">Firaz #MajuDPM</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -21,19 +8,18 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?= site_url('') ?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?= site_url('admin') ?>">Admin</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="<?= site_url('about') ?>">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= site_url('biodata') ?>">Biodata</a>
       </li>
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
   </div>
 </nav>
 <div class="text-container">
@@ -42,18 +28,8 @@
 			<p>Saya adalah Mahasiswa FMIPA Unila<br>Jurusan Ilmu Komputer Angkatan 2018</p>
     </div>
     </section>
-  <div class="about-container">
 	<!--img-->
-		<img src="/img/firaz.png"/>
-  
-    <!--about-me-text-->
-	  <div class="about-text">
-		  <p>Tentang Saya</p>
-		  <p>Mahasiswa Ilmu Komputer Universitas Lampung</p>
-		  <p>Saya berniat untuk berkontribusi kepada FMIPA sekali lagi</p>
-		  <p>dengan menjadikan DPM FMIPA sebagai lembaga yang kontributif</p>
-	  </div>
-  </div>
+
   
 	<!--model---------------------->
 	
@@ -62,5 +38,3 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>

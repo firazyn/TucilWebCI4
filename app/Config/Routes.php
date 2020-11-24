@@ -33,6 +33,8 @@ $routes->setAutoRoute(false);
 $routes->match(['get','post'],'/auth/login', 'Auth::login');
 $routes->match(['get','post'],'/auth/register', 'Auth::register');
 $routes->get('/admin', 'Home::admin');
+$routes->get('/about', 'Home::about');
+$routes->get('/biodata', 'Home::bio');
 $routes->get('/', 'Home::index');
 
 /**
